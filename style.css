@@ -1,0 +1,118 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff0f5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px 20px;
+    color: #75465e;
+}
+
+h1 {
+    color: #d46a94;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    color: #987184;
+}
+
+.container {
+    background-color: white;
+    max-width: 450px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px #e8b9cd;
+}
+
+.campo-adicionar {
+    display: flex;
+    gap: 8px;
+}
+
+input[type="text"] {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #e8b9cd;
+    border-radius: 10px;
+    outline: none;
+    color: #75465e;
+    font-size: 14px;
+}
+
+input[type="text"]:focus {
+    border-color: #d46a94;
+}
+
+button {
+    padding: 10px 12px;
+    background-color: #e99ab7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #d46a94;
+    transform: translateY(-1px);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff0f5;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+li input[type="checkbox"] {
+    accent-color: #d46a94;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+li span {
+    flex: 1;
+}
+
+li button {
+    background-color: #c87994;
+    font-size: 12px;
+    flex-shrink: 0;
+}
+
+li button:hover {
+    background-color: #a95373;
+}
+
+#contador {
+    margin-top: 20px;
+    color: #987184;
+    font-size: 14px;
+}
+
+.rodape {
+    color: #c49aaf;
+    font-size: 12px;
+    margin-top: 20px;
+}
